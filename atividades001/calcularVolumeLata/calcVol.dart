@@ -8,7 +8,6 @@ valor do volume de uma lata de óleo, utilizando a fórmula:VOLUME <-- 3.14159 *
 */
 
 import 'dart:math';
-import 'dart:io';
 
 main() {
   //inicio do programa

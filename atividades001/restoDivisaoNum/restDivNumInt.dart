@@ -6,6 +6,7 @@ Objetivo: Faça um programa na Linguagem Dart que receba um número e
 mostre o resto da divisão por 6.
 
 */
+
 import 'dart:io';
 
 main() {

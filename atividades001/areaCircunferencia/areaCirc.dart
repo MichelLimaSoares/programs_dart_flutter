@@ -5,7 +5,6 @@ RA: 2920481911045
 Objetivo: Faça um programa na Linguagem Dart que calcule a área da circunferência.
 
 */
-import 'dart:ffi';
 
 main() {
   //inicio do programa
