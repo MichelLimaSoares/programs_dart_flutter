@@ -9,6 +9,11 @@ mostre o resto da divisão por 6.
 import 'dart:io';
 
 main() {
+  //inicio do programa
+  print("");
+  print(
+      "Esse programa ira mostrar o resto da divisão de um numero Inteiro por 6");
+  print("");
   //declarando variaveis
   int num;
   int restDiv = 6;

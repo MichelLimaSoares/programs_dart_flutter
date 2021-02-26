@@ -10,6 +10,9 @@ apresente a multiplicação dos dois números.
 import 'dart:io';
 
 main() {
+  print("");
+  print("Esse programa ira mostrar a Multiplicação de dois numeros Inteiros");
+  print("");
   //create variable
   int num01;
   int num02;
