@@ -10,9 +10,20 @@ Objetivo: Faça um programa na Linguagem Dart que leia tenha 3 opções:
 
 */
 import 'dart:math';
+import 'dart:io';
 
 main() {
-  var opcoes = '3';
+  //inicio do programa
+  print("");
+  print("Escolha qual programa executar");
+  print("");
+  print(
+      "1 - Fatorial  \n2 - Quadrado de um número \n3 - Volume de uma lata  \n4 – Sair do Programa");
+  print("");
+  print("Digite o numero da Opção que deseja executar: \n");
+
+  String opcoes;
+  opcoes = (stdin.readLineSync());
 
   switch (opcoes) {
     case "1":
@@ -37,6 +48,7 @@ main() {
 }
 
 void fatorial() {
+  //inicio do programa que calcula o FATORIAL
   print("");
   print("Essa opção mostra o fatorial de um numero Inteiro");
   print("");
@@ -58,7 +70,7 @@ void fatorial() {
 }
 
 void quadrado() {
-  //inicio do programa
+  //inicio do programa que calcula o QUADRADO de um numero
   print("");
   print("O programa apresentará o valor Quadrado de um numero Inteiro");
   print("");
@@ -79,7 +91,7 @@ void quadrado() {
 }
 
 void volumeLata() {
-  //inicio do programa
+  //inicio do programa que calcula o VOLUME DE UMA LATA
   print("");
   print("O programa ira calcular o volume de uma lata de óleo");
   print("");
